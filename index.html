@@ -1,0 +1,41 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            ::-webkit-scrollbar {
+                width: 18px;
+            }
+            ::-webkit-scrollbar-thumb {
+            background: rgb(255, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Different looks for the text and textarea boxes</h1>
+        <form action="" method="POST">
+            <h3>test color</h3>
+                <textarea name="color1" id="color_1" style="background-color:pink;color: red; font-family: cursive;">put comments here</textarea>
+                <textarea name="color2" id="color_2" style="background-color:brown;color: blue; font-family: cursive;">put comments here</textarea>
+                <textarea name="color3" id="color_3" style="background-color:green;color: yellow; font-family: cursive;">put comments here</textarea>
+            <h3>test button color</h3>
+            <input type="submit" value="Submit" style="border:5px solid blueviolet;background-color:yellow;color: blue;">
+            <h3>test scrollbar</h3>
+                <textarea name="r" class="scrolle" style="background-color:rgb(219, 139, 152);color: rgb(207, 0, 0); font-family: cursive; ::-webkit-scrollbar-thumb {background: yellowgreen;}">put comments here</textarea>
+                <textarea name="t" class="scrolle" style="background-color:rgb(122, 33, 33);color: rgb(0, 0, 192); font-family: cursive;">put comments here</textarea>
+                <textarea name="u" class="scrolle" style="background-color:rgb(0, 92, 0);color: rgb(199, 199, 0); font-family: cursive;">put comments here</textarea>
+            <h3>test background picture</h3>
+                <textarea name="comments" id="comments" style="width:28%;height:50px;padding:2%;font-size:1.2em;background:url('/pix/samples/bubble2.gif');">it doesn't work</textarea>
+                <textarea name="comments" id="comment" style="width:29%;height:50px;padding:2%;font-size:1.2em;background:url('/pix/samples/celebrate.gif');background-position:center center;background-repeat:no-repeat;">it doesn't work</textarea>
+               	<textarea name="comments" id="commen" style="width:28%;height:50px;padding:2%;font-size:1.2em;color:white;background:url('/pix/samples/15l.jpg');background-position:center center;background-repeat:no-repeat;background-size:cover;">it doesn't work</textarea>
+            <h3>test border style</h3>
+                <textarea name="comments" id="comments" style="padding:2%;font-size:1.2em;border:10px solid #6DB72C;">put comments here</textarea>
+                <textarea name="p" id="p" style="padding:2%;font-size:1.2em;border:10px dotted #6DB72C;">put comments here</textarea>
+                <textarea name="o" id="o" style="padding:2%;font-size:1.2em;border:12px groove #6DB72C;">put comments here</textarea>
+            
+        </form>
+    </body>
+</html>
